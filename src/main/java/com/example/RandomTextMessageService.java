@@ -7,7 +7,8 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Random;
 
-@Component("randomMessageService")
+//@Component("randomMessageService")
+@Component
 public class RandomTextMessageService implements MessageService{
 
     List<String> list = new ArrayList<>(Arrays.asList("msg 1", "msg 2","msg 3","msg 4","msg 5","msg 6","msg 7","msg 8","msg 9","msg 10"));

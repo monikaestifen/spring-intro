@@ -1,7 +1,8 @@
 package com.example;
 import org.springframework.stereotype.Component;
 
-@Component("messageService")
+//@Component("messageService")
+@Component
 public class MyNameMessageService implements MessageService {
 
 
